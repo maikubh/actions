@@ -1,0 +1,14 @@
+# Dependencies — ncc bundles everything into dist/, node_modules is not needed at runtime
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+*.swp
+
+# Environment
+.env
+.env.*
