@@ -12,6 +12,10 @@ inputs:
   before-sha:
     description: 'The commit SHA before the push (github.event.before)'
     required: true
+  app-name:
+    description: 'Human-readable app name shown in the Slack message (e.g. "Web App", "Backend", "Mobile")'
+    required: false
+    default: ''
 
 runs:
   using: 'node20'
